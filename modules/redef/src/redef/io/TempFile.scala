@@ -6,10 +6,7 @@ import java.nio.file.{DirectoryNotEmptyException}
 import java.nio.file.Files
 import java.nio.file.Path
 
-// import scala.language.experimental.saferExceptions
-
 import scala.util.Either
-
 import scala.util.Using.Releasable
 
 object TempFileUtils {

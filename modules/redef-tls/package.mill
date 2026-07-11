@@ -1,0 +1,7 @@
+package build.modules.tls
+
+object `package` extends build.CommonModule:
+
+  def artifactName = "redef-tls-iana"
+
+  object test extends CommonTestModule
